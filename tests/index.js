@@ -1,5 +1,5 @@
 import test from 'ava';
-import FetchPageLinks from '../src/FetchPageLinks';
+import FetchPageLinks from '../src/services/FetchPageLinks';
 import { rootContext } from 'webmiddle';
 
 test('FetchPageLinks', async t => {
