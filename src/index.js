@@ -4,7 +4,7 @@
 import { rootContext } from 'webmiddle';
 import path from 'path';
 import fs from 'fs';
-import FetchPageLinks from './FetchPageLinks';
+import FetchPageLinks from './services/FetchPageLinks';
 
 rootContext.evaluate(
   <FetchPageLinks
