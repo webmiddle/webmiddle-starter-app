@@ -4852,75 +4852,75 @@ virtual-element@^1.2.0:
     array-flatten "^1.1.1"
     sliced "0.0.5"
 
-webmiddle-component-arraymap@^0.4.0-alpha.0:
-  version "0.4.0-alpha.0"
-  resolved "https://registry.npmjs.org/webmiddle-component-arraymap/-/webmiddle-component-arraymap-0.4.0-alpha.0.tgz#921d84c637421d787c42e28d2dd3b02eb84effe1"
+webmiddle-component-arraymap@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/webmiddle-component-arraymap/-/webmiddle-component-arraymap-0.4.0.tgz#62b0cdf34f2a30fe05088cce3b5fed587398d7f8"
 
-webmiddle-component-cheerio-to-json@^0.4.0-alpha.0:
-  version "0.4.0-alpha.0"
-  resolved "https://registry.npmjs.org/webmiddle-component-cheerio-to-json/-/webmiddle-component-cheerio-to-json-0.4.0-alpha.0.tgz#5a1acae844bc5ed510958dc0ec7d397dc9a56b38"
+webmiddle-component-cheerio-to-json@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/webmiddle-component-cheerio-to-json/-/webmiddle-component-cheerio-to-json-0.4.0.tgz#13fa99d0e7a3471196a5130ca6675ad4365522e6"
   dependencies:
-    webmiddle-component-cheerio-to-virtual "^0.4.0-alpha.0"
-    webmiddle-component-pipe "^0.4.0-alpha.0"
-    webmiddle-component-virtual-to-json "^0.4.0-alpha.0"
+    webmiddle-component-cheerio-to-virtual "^0.4.0"
+    webmiddle-component-pipe "^0.4.0"
+    webmiddle-component-virtual-to-json "^0.4.0"
 
-webmiddle-component-cheerio-to-virtual@^0.4.0-alpha.0:
-  version "0.4.0-alpha.0"
-  resolved "https://registry.npmjs.org/webmiddle-component-cheerio-to-virtual/-/webmiddle-component-cheerio-to-virtual-0.4.0-alpha.0.tgz#3d7f327239c8857596602cb3f2366f0273af759b"
+webmiddle-component-cheerio-to-virtual@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/webmiddle-component-cheerio-to-virtual/-/webmiddle-component-cheerio-to-virtual-0.4.0.tgz#8ddac667f6231764f8337243b2ba1f09fb837ea2"
   dependencies:
     cheerio "^1.0.0-rc.2"
     lodash.every "^4.6.0"
 
-webmiddle-component-http-request@^0.4.0-alpha.0:
-  version "0.4.0-alpha.0"
-  resolved "https://registry.npmjs.org/webmiddle-component-http-request/-/webmiddle-component-http-request-0.4.0-alpha.0.tgz#3e6b7ef23c77c0568218e9c1eb86823c3eae2ae9"
+webmiddle-component-http-request@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/webmiddle-component-http-request/-/webmiddle-component-http-request-0.4.0.tgz#b03638e3f4204cc508f48e3975969914629a00cf"
   dependencies:
     request "^2.87.0"
 
-webmiddle-component-jsonselect-to-json@^0.4.0-alpha.0:
-  version "0.4.0-alpha.0"
-  resolved "https://registry.npmjs.org/webmiddle-component-jsonselect-to-json/-/webmiddle-component-jsonselect-to-json-0.4.0-alpha.0.tgz#0e3fea30a4babc8acc9d31d3a1051f8b1e904b02"
+webmiddle-component-jsonselect-to-json@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/webmiddle-component-jsonselect-to-json/-/webmiddle-component-jsonselect-to-json-0.4.0.tgz#e2aa8e6cc245a6eaf0488930eddcb9e124251d0c"
   dependencies:
-    webmiddle-component-jsonselect-to-virtual "^0.4.0-alpha.0"
-    webmiddle-component-pipe "^0.4.0-alpha.0"
-    webmiddle-component-virtual-to-json "^0.4.0-alpha.0"
+    webmiddle-component-jsonselect-to-virtual "^0.4.0"
+    webmiddle-component-pipe "^0.4.0"
+    webmiddle-component-virtual-to-json "^0.4.0"
 
-webmiddle-component-jsonselect-to-virtual@^0.4.0-alpha.0:
-  version "0.4.0-alpha.0"
-  resolved "https://registry.npmjs.org/webmiddle-component-jsonselect-to-virtual/-/webmiddle-component-jsonselect-to-virtual-0.4.0-alpha.0.tgz#3b6921696a489c0e13038d60af9c2bd2fe8e3568"
+webmiddle-component-jsonselect-to-virtual@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/webmiddle-component-jsonselect-to-virtual/-/webmiddle-component-jsonselect-to-virtual-0.4.0.tgz#fd5297d4c03333c97b3f76c2cae39948f6ab49bd"
   dependencies:
     JSONSelect "^0.4.0"
 
-webmiddle-component-parallel@^0.4.0-alpha.0:
-  version "0.4.0-alpha.0"
-  resolved "https://registry.npmjs.org/webmiddle-component-parallel/-/webmiddle-component-parallel-0.4.0-alpha.0.tgz#43bd61acc77fbb6156f21edcd1b4533c0313b0aa"
+webmiddle-component-parallel@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/webmiddle-component-parallel/-/webmiddle-component-parallel-0.4.0.tgz#25e106f2110104c45caab953a8dc517ff985d576"
 
-webmiddle-component-pipe@^0.4.0-alpha.0:
-  version "0.4.0-alpha.0"
-  resolved "https://registry.npmjs.org/webmiddle-component-pipe/-/webmiddle-component-pipe-0.4.0-alpha.0.tgz#7750ab7b5e02e66717e418f0ad783398171cf37b"
+webmiddle-component-pipe@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/webmiddle-component-pipe/-/webmiddle-component-pipe-0.4.0.tgz#e61493686a89a4771a897f8288b2b43775b472db"
 
-webmiddle-component-resume@^0.4.0-alpha.0:
-  version "0.4.0-alpha.0"
-  resolved "https://registry.npmjs.org/webmiddle-component-resume/-/webmiddle-component-resume-0.4.0-alpha.0.tgz#0306338d84b17aa61430a24b07aa85b1dbdb396b"
+webmiddle-component-resume@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/webmiddle-component-resume/-/webmiddle-component-resume-0.4.0.tgz#36dcec14ac524560c59fbfa0f581c7a3a11efc2a"
   dependencies:
     mkdirp "^0.5.1"
-    webmiddle-component-pipe "^0.4.0-alpha.0"
+    webmiddle-component-pipe "^0.4.0"
 
-webmiddle-component-virtual-to-json@^0.4.0-alpha.0:
-  version "0.4.0-alpha.0"
-  resolved "https://registry.npmjs.org/webmiddle-component-virtual-to-json/-/webmiddle-component-virtual-to-json-0.4.0-alpha.0.tgz#918eb3184ee2a8605c1853bcd673bc601889a9a6"
+webmiddle-component-virtual-to-json@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/webmiddle-component-virtual-to-json/-/webmiddle-component-virtual-to-json-0.4.0.tgz#c83f83d308f9ab68f56f37aeb7fa03b39db396d1"
   dependencies:
     lodash.values "^4.3.0"
 
-webmiddle-manager-cookie@^0.4.0-alpha.0:
-  version "0.4.0-alpha.0"
-  resolved "https://registry.npmjs.org/webmiddle-manager-cookie/-/webmiddle-manager-cookie-0.4.0-alpha.0.tgz#bcaca179e45828717df50f6cbd51a534a3a30722"
+webmiddle-manager-cookie@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/webmiddle-manager-cookie/-/webmiddle-manager-cookie-0.4.0.tgz#a01d78d5df568de351530471979f9dd5f18fe045"
   dependencies:
     tough-cookie "^2.4.3"
 
-webmiddle-server@^0.4.0-alpha.0:
-  version "0.4.0-alpha.0"
-  resolved "https://registry.npmjs.org/webmiddle-server/-/webmiddle-server-0.4.0-alpha.0.tgz#42823efcab3ae7b4eef8ad9e4b6b950c313c7b04"
+webmiddle-server@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/webmiddle-server/-/webmiddle-server-0.4.0.tgz#eef511342cca4fd6a9d39be3c80a7a7fa00d6b19"
   dependencies:
     body-parser "^1.18.3"
     cors "^2.8.1"
@@ -4929,13 +4929,13 @@ webmiddle-server@^0.4.0-alpha.0:
     uuid "^3.3.0"
     ws "^5.2.1"
 
-webmiddle@^0.4.0-alpha.0:
-  version "0.4.0-alpha.0"
-  resolved "https://registry.npmjs.org/webmiddle/-/webmiddle-0.4.0-alpha.0.tgz#389e84c778ee8791ddd8086c02ac69ae92736201"
+webmiddle@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/webmiddle/-/webmiddle-0.4.0.tgz#87d543cc903a6acabaaf2b8f86ad009b9e3d3c1c"
   dependencies:
     proptypes "^1.0.0"
     virtual-element "^1.2.0"
-    webmiddle-manager-cookie "^0.4.0-alpha.0"
+    webmiddle-manager-cookie "^0.4.0"
 
 well-known-symbols@^1.0.0:
   version "1.0.0"
