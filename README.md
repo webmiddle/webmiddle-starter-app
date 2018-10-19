@@ -1,4 +1,4 @@
-## Installing
+## Installing for local development
 
 ```sh
 chmod +x link.sh
