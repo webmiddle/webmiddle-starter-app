@@ -1,3 +1,11 @@
+## Installing
+
+```sh
+chmod +x link.sh
+./link.sh
+yarn
+```
+
 ## Adding Browser
 
 The `Browser` component isn't included by default as it greatly increases the install time,
