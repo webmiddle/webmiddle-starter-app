@@ -8,6 +8,3 @@ Thumbs.db
 yarn-error.log
 .vscode
 package-lock.json
-
-search.private.json
-output
