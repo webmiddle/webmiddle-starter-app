@@ -1,13 +1,6 @@
-## Working with linked webmiddle
+# webmiddle-starter-app
 
-Assuming you have cloned this repo as a submodule with https://github.com/webmiddle/webmiddle-all
-
-Before installing dependencies with `yarn`, run the following to link the local webmiddle packages.
-
-```sh
-chmod +x link.sh
-./link.sh
-```
+> Starter app for webmiddle
 
 ## Commands
 
@@ -45,4 +38,15 @@ If you need it, type the following
 
 ```bash
 yarn add webmiddle-component-browser
+```
+
+## Working with linked webmiddle
+
+Assuming you have cloned this repo as a submodule with https://github.com/webmiddle/webmiddle-all
+
+Before installing dependencies with `yarn`, run the following to link the local webmiddle packages.
+
+```sh
+chmod +x link.sh
+./link.sh
 ```
