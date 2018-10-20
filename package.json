@@ -8,8 +8,7 @@
     "dist"
   ],
   "engines": {
-    "node": "^6.14.0 || >=8.10.0",
-    "yarn": ">=1.5.1"
+    "node": "^6.14.0 || >=8.10.0"
   },
   "scripts": {
     "test": "cross-env NODE_ENV=test ava",
