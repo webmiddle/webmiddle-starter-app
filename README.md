@@ -1,10 +1,40 @@
-## Installing for local development
+## Working with linked webmiddle
+
+Assuming you have cloned this repo as a submodule with https://github.com/webmiddle/webmiddle-all
+
+Before installing dependencies with `yarn`, run the following to link the local webmiddle packages.
 
 ```sh
 chmod +x link.sh
 ./link.sh
+```
+
+## Commands
+
+Install dependencies
+
+```sh
 yarn
 ```
+
+Build
+
+```sh
+yarn build
+```
+
+Test
+
+```sh
+yarn test
+```
+
+For development, automatically rebuild and restart server on changes:
+
+```sh
+yarn start
+```
+
 
 ## Adding Browser
 
