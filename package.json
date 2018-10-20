@@ -18,7 +18,7 @@
     "babel": "babel src --out-dir dist --source-maps inline",
     "build": "npm run clean && npm run babel",
     "build:watch": "npm run clean && npm run babel -- --watch",
-    "start": "nodemon --watch src --exec \"yarn run clean && yarn build && yarn run start:server\"",
+    "start": "nodemon --watch src --exec \"npm run clean && npm run build && npm run start:server\"",
     "start:server": "node dist/server",
     "prepublish": "npm run build"
   },
