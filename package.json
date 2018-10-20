@@ -3,6 +3,8 @@
   "private": true,
   "version": "0.1.0",
   "description": "webmiddle starter app",
+  "author": "Manuel Dell'Elce",
+  "license": "MIT",
   "main": "dist/index.js",
   "files": [
     "dist"
