@@ -19,7 +19,7 @@
     "build:watch": "npm run clean && npm run babel -- --watch",
     "start": "nodemon --watch src --exec \"npm run clean && npm run build && npm run start:server\"",
     "start:server": "node dist/server",
-    "prepublish": "npm run build"
+    "prepublish": "npm run clean && npm run build && npm run test"
   },
   "ava": {
     "files": [
