@@ -14,10 +14,9 @@ export default function testWrapper() {
       Service.description = description;
       testServices.push(Service);
 
-      // only run tests with the AVA cli
+      // only run tests with the AVA cli or it will throw
       // see https://github.com/avajs/ava/blob/3ac2a8f813947588832fccd065d160fc533cd75c/lib/worker/ensure-forked.js
-      const isForked = typeof process.send === 'function';
-      if (isForked) {
+      if (process.env.NODE_ENV === 'test') {
         const ava = require('ava'); // eslint-disable-line global-require
         ava(description, async (t) => {
           await rootContext.evaluate(<Service />)
