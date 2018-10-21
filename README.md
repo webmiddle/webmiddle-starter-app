@@ -28,6 +28,12 @@ For development, automatically rebuild and restart server on changes:
 yarn start
 ```
 
+For development, `start` and launch `webmiddle-devtools`:
+
+```sh
+yarn start:devtools
+```
+
 
 ## Adding Browser
 
