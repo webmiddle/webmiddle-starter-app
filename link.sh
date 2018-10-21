@@ -1,6 +1,6 @@
 #!/bin/bash
 CWD=$PWD
-for filename in ../webmiddle/packages/*; do
+for filename in ../webmiddle/packages/* ../webmiddle-devtools; do
   yarn unlink $(basename $filename)
   cd $filename
   yarn unlink
