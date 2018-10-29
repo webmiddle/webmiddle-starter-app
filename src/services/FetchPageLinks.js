@@ -1,11 +1,7 @@
-import { PropTypes } from 'webmiddle';
-import Pipe from 'webmiddle-component-pipe';
-import HttpRequest from 'webmiddle-component-http-request';
-import HtmlToJson, { helpers } from 'webmiddle-component-cheerio-to-json';
-
-const {
-  elText, elAttr, elMap, elPipe,
-} = helpers;
+import { PropTypes } from "webmiddle";
+import Pipe from "webmiddle-component-pipe";
+import HttpRequest from "webmiddle-component-http-request";
+import HtmlToJson, { $$ } from "webmiddle-component-cheerio-to-json";
 
 function FetchPageLinks({ url, query, waitFor }) {
   return (
@@ -17,28 +13,37 @@ function FetchPageLinks({ url, query, waitFor }) {
         waitFor={waitFor}
       />
 
-      {({ rawHtml }) =>
+      {({ rawHtml }) => (
         <HtmlToJson name="result" from={rawHtml}>
-          <anchors
-            el="a"
-            condition={el => el.text().toUpperCase().indexOf(query.toUpperCase()) !== -1}
-          >
-            {elMap(el => (
-              <anchor el={el}>
-                <url>{elAttr('href')}</url>
-                <text>{elText()}</text>
-              </anchor>
-            ))}
-          </anchors>
+          {{
+            anchors: $$.within(
+              "a",
+              $$.pipe(
+                $$.filter(
+                  el =>
+                    el
+                      .text()
+                      .toUpperCase()
+                      .indexOf(query.toUpperCase()) !== -1
+                ),
+                $$.map({
+                  anchor: {
+                    url: $$.attr("href"),
+                    text: $$.value()
+                  }
+                })
+              )
+            )
+          }}
         </HtmlToJson>
-      }
+      )}
     </Pipe>
   );
 }
 
 FetchPageLinks.propTypes = {
   url: PropTypes.string.isRequired,
-  query: PropTypes.string.isRequired,
+  query: PropTypes.string.isRequired
 };
 
 export default FetchPageLinks;
