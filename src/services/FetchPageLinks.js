@@ -14,8 +14,10 @@ function FetchPageLinks({ url, query, waitFor }) {
       />
 
       {({ rawHtml }) => (
-        <HtmlToJson name="result" from={rawHtml}>
-          {{
+        <HtmlToJson
+          name="result"
+          from={rawHtml}
+          content={{
             anchors: $$.within(
               "a",
               $$.pipe(
@@ -29,13 +31,13 @@ function FetchPageLinks({ url, query, waitFor }) {
                 $$.map({
                   anchor: {
                     url: $$.attr("href"),
-                    text: $$.value()
+                    text: $$.getFirst()
                   }
                 })
               )
             )
           }}
-        </HtmlToJson>
+        />
       )}
     </Pipe>
   );
