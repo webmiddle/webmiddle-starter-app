@@ -47,7 +47,6 @@
   },
   "dependencies": {
     "webmiddle": "^0.4.0",
-    "webmiddle-component-arraymap": "^0.4.0",
     "webmiddle-component-cheerio-to-json": "^0.4.0",
     "webmiddle-component-http-request": "^0.4.0",
     "webmiddle-component-jsonselect-to-json": "^0.4.0",
