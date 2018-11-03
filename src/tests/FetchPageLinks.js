@@ -20,6 +20,7 @@ test(
   },
   (resource, t) => {
     t.true(isResource(resource));
+    t.is(resource.name, "hackernews");
     t.is(resource.contentType, "application/json");
     t.is(typeof resource.content.anchors, "object");
   }
