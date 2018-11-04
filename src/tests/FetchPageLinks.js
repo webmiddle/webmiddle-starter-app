@@ -11,7 +11,10 @@ test(
     // evaluate something here
     // `props` and `context.options` can be specified with webmiddle-devtools
     return context
-      .extend({ expectResource: true })
+      .extend({
+        expectResource: true,
+        ...context.options
+      })
       .evaluate(
         <FetchPageLinks
           name="hackernews"
