@@ -2,8 +2,8 @@ import Server from "webmiddle-server";
 import * as services from "./services";
 import * as tests from "./tests";
 
-function extractTestServices(data, prefix = 'tests', obj = {}) {
-  Object.keys(data).forEach((key) => {
+function extractTestServices(data, prefix = "tests", obj = {}) {
+  Object.keys(data).forEach(key => {
     const value = data[key];
     if (Array.isArray(value)) {
       value.forEach((Service, i) => {
@@ -16,12 +16,15 @@ function extractTestServices(data, prefix = 'tests', obj = {}) {
   return obj;
 }
 
-const server = new Server({
-  ...services,
-  ...extractTestServices(tests),
-}, {
-  port: 3000,
-});
+const server = new Server(
+  {
+    ...services,
+    ...extractTestServices(tests)
+  },
+  {
+    port: process.env.PORT || 3000
+  }
+);
 server.start();
 
-console.log('Services', server.serviceRoutes);
+console.log("Services", server.serviceRoutes);

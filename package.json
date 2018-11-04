@@ -18,7 +18,7 @@
     "babel": "babel src --out-dir dist --source-maps inline",
     "build": "npm run clean && npm run babel",
     "build:watch": "npm run clean && npm run babel -- --watch",
-    "server": "node dist/server",
+    "server": "cross-env PORT=3000 node dist/server",
     "devtools": "cross-env PORT=3001 webmiddle-devtools",
     "start": "nodemon --watch src --exec \"npm run build && npm run server\"",
     "start:devtools": "yarn run devtools & yarn run start",
