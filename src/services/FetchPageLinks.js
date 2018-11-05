@@ -3,15 +3,10 @@ import Pipe from "webmiddle-component-pipe";
 import HttpRequest from "webmiddle-component-http-request";
 import HtmlToJson, { $$ } from "webmiddle-component-cheerio-to-json";
 
-function FetchPageLinks({ url, query, waitFor, name }) {
+function FetchPageLinks({ url, query, name }) {
   return (
     <Pipe>
-      <HttpRequest
-        name="rawHtml"
-        contentType="text/html"
-        url={url}
-        waitFor={waitFor}
-      />
+      <HttpRequest contentType="text/html" url={url} />
 
       {rawHtml => (
         <HtmlToJson
@@ -46,7 +41,6 @@ function FetchPageLinks({ url, query, waitFor, name }) {
 FetchPageLinks.propTypes = {
   url: PropTypes.string.isRequired,
   query: PropTypes.string.isRequired,
-  waitFor: PropTypes.string,
   name: PropTypes.string
 };
 
