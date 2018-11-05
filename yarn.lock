@@ -4267,7 +4267,7 @@ expect@^23.6.0:
     jest-message-util "^23.4.0"
     jest-regex-util "^23.3.0"
 
-express@^4.14.1, express@^4.16.2:
+express@^4.16.2, express@^4.16.4:
   version "4.16.4"
   resolved "https://registry.yarnpkg.com/express/-/express-4.16.4.tgz#fddef61926109e24c515ea97fd2f1bdbf62df12e"
   integrity sha512-j12Uuyb4FMrd/qQAm6uCHAkPtO8FDTRJZBDd5D2KOL2eLaz1yUNdUB/NOIyq0iU4q4cFarsUCrnFDPBcnksuOg==
@@ -6942,11 +6942,6 @@ lodash.uniq@^4.5.0:
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
-lodash.values@^4.3.0:
-  version "4.3.0"
-  resolved "https://registry.yarnpkg.com/lodash.values/-/lodash.values-4.3.0.tgz#a3a6c2b0ebecc5c2cba1c17e6e620fe81b53d347"
-  integrity sha1-o6bCsOvsxcLLocF+bmIP6BtT00c=
-
 "lodash@>=3.5 <5", lodash@^4.13.1, lodash@^4.15.0, lodash@^4.17.10, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.2.0, lodash@^4.2.1:
   version "4.17.11"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
@@ -9097,11 +9092,6 @@ prop-types@^15.5.10, prop-types@^15.5.4, prop-types@^15.5.6, prop-types@^15.5.7,
   dependencies:
     loose-envify "^1.3.1"
     object-assign "^4.1.1"
-
-proptypes@^1.0.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/proptypes/-/proptypes-1.1.0.tgz#78b3828a5aa6bb1308939e0de3c6044dfd4bd239"
-  integrity sha1-eLOCilqmuxMIk54N48YETf1L0jk=
 
 proto-list@~1.2.1:
   version "1.2.4"
@@ -11483,80 +11473,49 @@ webidl-conversions@^4.0.2:
   resolved "https://registry.yarnpkg.com/webidl-conversions/-/webidl-conversions-4.0.2.tgz#a855980b1f0b6b359ba1d5d9fb39ae941faa63ad"
   integrity sha512-YQ+BmxuTgd6UXZW3+ICGfyqRyHXVlD5GtQr5+qjiNW7bF0cqrzX500HVXPBOvgXb5YnzDd+h0zqyv61KUD7+Sg==
 
-webmiddle-component-arraymap@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/webmiddle-component-arraymap/-/webmiddle-component-arraymap-0.4.0.tgz#62b0cdf34f2a30fe05088cce3b5fed587398d7f8"
-  integrity sha512-JZvHX5p7F232g4w4DxGudMTqXWaY2Q37b4WPjYgJGDSWS7PvLKhcMYRejtnjTSKOJ0WNBWXr9ABPNH9fO9PdhQ==
-
-webmiddle-component-cheerio-to-json@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/webmiddle-component-cheerio-to-json/-/webmiddle-component-cheerio-to-json-0.4.0.tgz#13fa99d0e7a3471196a5130ca6675ad4365522e6"
-  integrity sha512-11pMVIp8K2m8tV/llFbRqGrxzUWtOoh4kMVb7ufeq/48e1G1uW7qEKZd5UGnS7kXr9NHApl3oSocFOf1BnjBdQ==
-  dependencies:
-    webmiddle-component-cheerio-to-virtual "^0.4.0"
-    webmiddle-component-pipe "^0.4.0"
-    webmiddle-component-virtual-to-json "^0.4.0"
-
-webmiddle-component-cheerio-to-virtual@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/webmiddle-component-cheerio-to-virtual/-/webmiddle-component-cheerio-to-virtual-0.4.0.tgz#8ddac667f6231764f8337243b2ba1f09fb837ea2"
-  integrity sha512-yzFd2epuJB9vXiOYA7edOPthRony+PxOR1v0kfTN2IjkMzg6uGNXUaqosYqePffSbltQbr0AM5lQ6a87dUynbw==
+webmiddle-component-cheerio-to-json@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/webmiddle-component-cheerio-to-json/-/webmiddle-component-cheerio-to-json-0.5.0.tgz#6fc3545360c71d4a45156df17451459b479d3c08"
+  integrity sha512-3IDhToZRayIgImzmgsyjZgvp9lREriWbpnu4qN17uQ0SB7H9kG1l4M3brE7SBPI5/nkuJ3tPv3uPNPcWDaj6lg==
   dependencies:
     cheerio "^1.0.0-rc.2"
     lodash.every "^4.6.0"
 
-webmiddle-component-http-request@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/webmiddle-component-http-request/-/webmiddle-component-http-request-0.4.0.tgz#b03638e3f4204cc508f48e3975969914629a00cf"
-  integrity sha512-8OXH+s5JbxhRX1p6T58UTg4NtbdRxy9bopKpfyLkg2pSH+wm5uH//k/eA8drM/JiTrpNl9HXV9acOQ0ZL3ODYw==
+webmiddle-component-http-request@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/webmiddle-component-http-request/-/webmiddle-component-http-request-0.5.0.tgz#31f4ad9019e26bde951ea8b84b48ab43884045a7"
+  integrity sha512-xni/sYPgss4Z46RjXGD1NjR036IOyRo5S3s4rwYba37rC8Gk+9jAZAZgDNeSQpMGDi3+GbmFm+eY5WP0U+tofQ==
   dependencies:
     request "^2.87.0"
 
-webmiddle-component-jsonselect-to-json@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/webmiddle-component-jsonselect-to-json/-/webmiddle-component-jsonselect-to-json-0.4.0.tgz#e2aa8e6cc245a6eaf0488930eddcb9e124251d0c"
-  integrity sha512-m81t3gZOQBwxiZjMMupX2jNXpIg4m2Mik6Ew0tmnIvdM8sWIDTxAjyAv01sQCDwhxyAxTvJx31I4WUbmc0b3Jw==
-  dependencies:
-    webmiddle-component-jsonselect-to-virtual "^0.4.0"
-    webmiddle-component-pipe "^0.4.0"
-    webmiddle-component-virtual-to-json "^0.4.0"
-
-webmiddle-component-jsonselect-to-virtual@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/webmiddle-component-jsonselect-to-virtual/-/webmiddle-component-jsonselect-to-virtual-0.4.0.tgz#fd5297d4c03333c97b3f76c2cae39948f6ab49bd"
-  integrity sha512-7K7DDCaB4GQlPl4A2fhW73Fuet7YC9LCfXA0bEct5Z9k9Yy9gMoz+GnyQpnPBFwUymJHIh5E5D/W9aX+HLkrNQ==
+webmiddle-component-jsonselect-to-json@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/webmiddle-component-jsonselect-to-json/-/webmiddle-component-jsonselect-to-json-0.5.0.tgz#16bbecfce7d69a27b56c0a115a34a5d5a213a35e"
+  integrity sha512-l5eiz8Ly8PU4BIV08kwmXZAlP97gjSUaM9ZP9bgTFU8nUfMUn2Rk0L+9dh6mWT2ZC7XAgI0TX9b4bEXlNzbGmA==
   dependencies:
     JSONSelect "^0.4.0"
 
-webmiddle-component-parallel@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/webmiddle-component-parallel/-/webmiddle-component-parallel-0.4.0.tgz#25e106f2110104c45caab953a8dc517ff985d576"
-  integrity sha512-NnLgR2cwCO6Wn3O6xgZ0Pl3r+5GqQVxdEGMsdI8J0kzLF4HAYYSjHVvQwCdKkJLunAJ/DdX3X7NJ5FdBGR8+hg==
+webmiddle-component-parallel@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/webmiddle-component-parallel/-/webmiddle-component-parallel-0.5.0.tgz#5dadd5af54950fbac107863c349bb00b3a89a20b"
+  integrity sha512-f+N+zAGhtM+DW4QCH+CkWqbsbOJbiaqF/Dave2dNrrqN8vhMkfrS9dTDAYn0HgxzU3eAMETD1ICcoOJhobJE/Q==
 
-webmiddle-component-pipe@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/webmiddle-component-pipe/-/webmiddle-component-pipe-0.4.0.tgz#e61493686a89a4771a897f8288b2b43775b472db"
-  integrity sha512-NiRNUqyTbyfhdel/WW0o6MbzpPC0FRqxxEBSh54TRlROjRQtGfIXj1QukHjehrpURtvL4e67vm5cTvDVTr2Ifw==
+webmiddle-component-pipe@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/webmiddle-component-pipe/-/webmiddle-component-pipe-0.5.0.tgz#705451f2dcd456e1864a93d07ba9eb3c8b65c587"
+  integrity sha512-BrEopjwLywnuPikGgKxwYCS6cnn9CQQDgk9cYfRDn+Y+tX5hhVSA1DDnG0gsvPeq2KZ9gIU6aIZNg5/RAfQ5gQ==
 
-webmiddle-component-resume@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/webmiddle-component-resume/-/webmiddle-component-resume-0.4.0.tgz#36dcec14ac524560c59fbfa0f581c7a3a11efc2a"
-  integrity sha512-3Ko170CmH+DKZbh1A/e/PkIKL9Ry/Sp8JgDHlEnm8nVC1VbMG3ShJAcHTRoYjbCizbYGy5xfopRizP2ST10A2w==
+webmiddle-component-resume@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/webmiddle-component-resume/-/webmiddle-component-resume-0.5.0.tgz#e1386af73f1fb64d268a3d24ad93eed5dea43026"
+  integrity sha512-TC2jIWSbmP5dxf8f8QCQnif1CBmbG17s+LGssud6GpsGbFfZvqyAkpxTadDdk/dmZfkPtzKc5LCVI83tkCIE6A==
   dependencies:
     mkdirp "^0.5.1"
-    webmiddle-component-pipe "^0.4.0"
 
-webmiddle-component-virtual-to-json@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/webmiddle-component-virtual-to-json/-/webmiddle-component-virtual-to-json-0.4.0.tgz#c83f83d308f9ab68f56f37aeb7fa03b39db396d1"
-  integrity sha512-BTAekyrjO/tSBhSFhU0Y641Wf37pbygjEP1MdenPjnrekjT1s4yHZ7U3WA9bJkSQ4muNTWhvea7m8UvkaTBaWA==
-  dependencies:
-    lodash.values "^4.3.0"
-
-webmiddle-devtools@^0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/webmiddle-devtools/-/webmiddle-devtools-0.2.1.tgz#b0f359ba01f059af625e4a266442482d1798c6c0"
-  integrity sha512-hPY549NEl4cPNcJUREC/90ZLFh3taURCetatk53/t6Ch21Xhzdmhj6nrT8EK8l6iOtlYRsrzg5u3KK7+Km5FIg==
+webmiddle-devtools@^0.2.3:
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/webmiddle-devtools/-/webmiddle-devtools-0.2.3.tgz#e2b6fe88f8cd21a01dadc4ebcf303b178d375749"
+  integrity sha512-bM/b8i2ALtx5W3h+YaW2oNxGbwIQoPVqjcJnQqnvl9W/7/zdVlvpzDM0WRUbU64qZTEIsAkWeJzfkWniYXusFQ==
   dependencies:
     brace "^0.11.0"
     classnames "^2.2.5"
@@ -11588,33 +11547,33 @@ webmiddle-devtools@^0.2.1:
     serve-handler "^5.0.5"
     uuid "^3.0.1"
 
-webmiddle-manager-cookie@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/webmiddle-manager-cookie/-/webmiddle-manager-cookie-0.4.0.tgz#a01d78d5df568de351530471979f9dd5f18fe045"
-  integrity sha512-dIFHTKyyQmx1TlYVrA/tUYJ6iNj3QV0lp34ySvYrAXhBn6GS3RELKM+LZchh66PEWRKPb8OLa66SHhd7k5Og/A==
+webmiddle-manager-cookie@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/webmiddle-manager-cookie/-/webmiddle-manager-cookie-0.5.0.tgz#2536d5ea52c13a4c2cdb0800838ba9857c47bd72"
+  integrity sha512-WCDHPFr3v0JOWcm7F67f+2Xsod9mrab/rA86JrdgPaSerbOKB3nB+pFDRc878+zZ5wA0wAypR5bN9f0Cc2wiiw==
   dependencies:
     tough-cookie "^2.4.3"
 
-webmiddle-server@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/webmiddle-server/-/webmiddle-server-0.4.0.tgz#eef511342cca4fd6a9d39be3c80a7a7fa00d6b19"
-  integrity sha512-c1qzpiHZSKsKAwIPsuCe7Hgp1SjJ3D5IZbHuAjgwewQJJMvfFVLEdhFSBqpOwkFHW3A0VWM2pKUtVdau1MD9ow==
+webmiddle-server@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/webmiddle-server/-/webmiddle-server-0.5.0.tgz#3f9f24b9d2899a1ce1755da25c5774921ec01f49"
+  integrity sha512-p3in6iuRSkXAKd1WysryxNjciZ0132SHguJhD6w4BGovzZnP9uaRpvkmeYq825+ugAIZS7OZPBTfrhnjnj0klg==
   dependencies:
     body-parser "^1.18.3"
     cors "^2.8.1"
-    express "^4.14.1"
+    express "^4.16.4"
     lodash "^4.17.10"
     uuid "^3.3.0"
-    ws "^5.2.1"
+    ws "^6.1.0"
 
-webmiddle@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/webmiddle/-/webmiddle-0.4.0.tgz#87d543cc903a6acabaaf2b8f86ad009b9e3d3c1c"
-  integrity sha512-LK8YB7dXJ9KibhVE+Qrzqzm/2zuql9oxFmVbVmYvA63o4uob28yHnFMczn3urCvc9wmet79I48MD5LAEetz82A==
+webmiddle@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/webmiddle/-/webmiddle-0.5.0.tgz#8d2553b0a532889f3de476626c9c92c1d68ed5d1"
+  integrity sha512-M4CafTDpMDvPZeQkjWHO4v0dne3fHd+X0uPThygdIx4hRr5E4fCw8y60H2j9D/XlakFaTGo1gFCcnQuk8SQRBw==
   dependencies:
-    proptypes "^1.0.0"
+    prop-types "^15.6.2"
     virtual-element "^1.2.0"
-    webmiddle-manager-cookie "^0.4.0"
+    webmiddle-manager-cookie "^0.5.0"
 
 webpack-dev-middleware@3.4.0:
   version "3.4.0"
@@ -11967,7 +11926,7 @@ write@^0.2.1:
   dependencies:
     mkdirp "^0.5.1"
 
-ws@^5.2.0, ws@^5.2.1:
+ws@^5.2.0:
   version "5.2.2"
   resolved "https://registry.yarnpkg.com/ws/-/ws-5.2.2.tgz#dffef14866b8e8dc9133582514d1befaf96e980f"
   integrity sha512-jaHFD6PFv6UgoIVda6qZllptQsMlDEJkTQcybzzXDYM1XO9Y8em691FGMPmM46WGyLU4z9KMgQN+qrux/nhlHA==

@@ -46,15 +46,15 @@
     }
   },
   "dependencies": {
-    "webmiddle": "^0.4.0",
-    "webmiddle-component-cheerio-to-json": "^0.4.0",
-    "webmiddle-component-http-request": "^0.4.0",
-    "webmiddle-component-jsonselect-to-json": "^0.4.0",
-    "webmiddle-component-parallel": "^0.4.0",
-    "webmiddle-component-pipe": "^0.4.0",
-    "webmiddle-component-resume": "^0.4.0",
-    "webmiddle-devtools": "^0.2.1",
-    "webmiddle-server": "^0.4.0"
+    "webmiddle": "^0.5.0",
+    "webmiddle-component-cheerio-to-json": "^0.5.0",
+    "webmiddle-component-http-request": "^0.5.0",
+    "webmiddle-component-jsonselect-to-json": "^0.5.0",
+    "webmiddle-component-parallel": "^0.5.0",
+    "webmiddle-component-pipe": "^0.5.0",
+    "webmiddle-component-resume": "^0.5.0",
+    "webmiddle-devtools": "^0.2.3",
+    "webmiddle-server": "^0.5.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.1.2",
